@@ -2,7 +2,7 @@
 
 # Hardcoded Infrastructure
 GATEWAY="192.168.222.2"
-DNS_SERVERS="172.21.10.55,172.21.10.56"
+DNS_SERVERS="1.1.1.1,1.0.0.3"
 
 if [ "$EUID" -ne 0 ]; then 
   echo "Error: Need root."
